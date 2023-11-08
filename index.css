@@ -1,0 +1,38 @@
+body{ 
+   background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)),url(https://images.pexels.com/photos/46160/field-clouds-sky-earth-46160.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+   background-size: cover;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;   
+}
+
+.col-6{
+    background: linear-gradient( rgb(37, 113, 212) ,rgb(81, 200, 247));
+
+}
+.col-4{
+    
+    background-color: rgb(56, 124, 124);
+}
+  
+hr{
+    color:white;
+}
+p{
+        margin:1;
+}
+
+.form-control::placeholder { 
+    color: aliceblue;
+   
+}
+#a,#b,#c,#d{
+    color: black;
+}
+button{
+    border-color: aliceblue;
+}
